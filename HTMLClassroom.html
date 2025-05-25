@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    header {
+      height: 50px;
+      background-color: burlywood;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>HTML classroom page </h1>
+  </header>
+  <h1> 1. Form </h1>
+  <p>The attributes are well alinged to make sure that the form is well oraganised.</p>
+  <form action="">
+    <table>
+
+      <tr>
+        <td>Name: </td>
+        <td><input type="text" placeholder="Name" name="name" required></td>
+      </tr>
+
+      <tr>
+        <td>Email: </td>
+        <td><input type="email" placeholder="Email" name="Email" required></td>
+      </tr>
+
+      <tr>
+        <td>Phone No: </td>
+        <td><input type="number" placeholder="Enter Phone" name="number" minlength="0000000000" maxlength="9999999999" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h4>Question: Choose the most appropriate option: </h4>
+        </td>
+        <td>
+          <input type="radio" id="A1" name="option" value="India is a state">
+          <label for="A1" name="option" value="India is a state"> India is a State</label><br>
+          <input type="radio" id="A1" name="option" value="India is a state">
+          <label for="A2"> India is a Country</label><br>
+          <input type="radio" id="A1" name="option" value="India is a Continent">
+          <label for="A3"> India is a Continent</label>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h4>Choose the company</h4>
+        </td>
+        <td>
+          <select name="company" id="">
+            <option value="Select">select the option</option>
+            <option value="Apple">Apple</option>
+            <option value="Microsoft">Microsoft </option>
+            <option value="Samsung">Samsung</option>
+            <option value="Nokia">Nokia</option>
+            <option value="Micromax">Micromax</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <h4>Choose which movie do you like:</h4>
+        </td>
+      <tr>
+        <td>Taxi Driver</td>
+        <td>
+          <input type="checkbox">
+      </tr>
+      <tr>
+        <td>Nayak the hero</td>
+        <td>
+          <input type="checkbox">
+      </tr>
+      <tr>
+        <td>Saransh</td>
+        <td>
+          <input type="checkbox">
+      </tr>
+      <tr>
+        <td>Drishyam</td>
+        <td>
+          <input type="checkbox">
+      </tr>
+      <tr>
+        <td>Mirch Masala</td>
+        <td>
+          <input type="checkbox">
+      </tr>
+      <tr>
+        <td>Ardh Satya </td>
+        <td>
+          <input type="checkbox">
+      </tr>
+      <tr>
+        <td>Ugly</td>
+        <td>
+          <input type="checkbox">
+      </tr>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <br>
+          <button>Button</button>
+        </td>
+
+
+      </tr>
+
+      </tr>
+
+    </table>
+  </form>
+  <hr>
+    <h4>We can also play the videos in loop by specifying loop in a video tag. feel free to make changes</h4>
+    <video width="50%" controls muted autoplay loop>
+      <source src="sample_960x400_ocean_with_audio.mp4" type="video/mp4" >
+    </video>
+
+ 
+</body>
+
+</html>
